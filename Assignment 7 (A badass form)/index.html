@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="margin: auto">Sanket's Application form</h1>
+        </div>
+        <hr>
+        <form>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="fnm">
+                    <div id="fnmDiv">
+                        <small id="fnmSmall" class="text-danger"></small>
+                        <small id="fnmSmallInfo" class="text-info">Name cannot be empty and should atleast have 3
+                            characters</small>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="lnm">
+                    <div id="lnmDiv">
+                        <small id="lnmSmall" class="text-danger"></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom03">Age</label>
+                    <input type="number" class="form-control" id="age">
+                    <div id="ageDiv">
+                        <small id="ageSmall" class="text-danger"></small>
+                        <small id="ageSmallInfo" class="text-info">Age is required and should be more than 16</small>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom04">Email ID</label>
+
+                    <input id="email" type="email" class="form-control">
+                    <div id="emailDiv">
+                        <small id="emailSmall" class="text-danger"></small>
+                        <small id="emailSmallInfo" class="text-info">Email is required</small>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom05">Mobile number</label>
+                    <input type="text" class="form-control" id="mobile">
+                    <div id="mobileDiv">
+                        <small id="mobileSmall" class="text-danger"></small>
+                        <small id="mobileSmallInfo" class="text-info">Mobile no is required</small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="agreement">
+                    <label class="form-check-label" for="agreement">
+                        Agree to terms and conditions
+                    </label>
+                    <div id="agreementDiv">
+                        <small id="agreementSmall" class="text-danger"></small>
+                        <small id="agreementSmallInfo" class="text-info"></small>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="btn" disabled="true" class="btn btn-primary">Submit form</button>
+        </form>
+
+        <div class="container">
+            <h1 id="msg"></h1>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

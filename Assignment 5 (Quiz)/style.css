@@ -1,0 +1,33 @@
+#container {
+    background-color: aqua;
+    width: 700px;
+    height: auto;
+    
+}
+
+#header {
+    text-align: center;
+}
+
+#frm {
+    margin-left: 5%;
+    padding: 3% 3% 3% 3%;
+}
+
+.select {
+    width: 40%;
+    border: solid;
+    background-color: yellow;
+}
+
+
+#btn {
+    width: 20%;
+    border: solid black;
+    background-color: chartreuse;
+    padding: 10 10 10 10;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
